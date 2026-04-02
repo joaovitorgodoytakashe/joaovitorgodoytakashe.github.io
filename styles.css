@@ -230,6 +230,10 @@ li {
   align-items: start;
 }
 
+.section-heading h2 {
+  max-width: none;
+}
+
 .prose p + p {
   margin-top: 1rem;
 }
