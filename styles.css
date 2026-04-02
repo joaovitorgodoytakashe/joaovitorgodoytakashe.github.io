@@ -1,14 +1,14 @@
 :root {
-  --bg: #f4efe7;
-  --bg-strong: #e7ddcf;
-  --surface: rgba(255, 252, 247, 0.75);
-  --surface-strong: #fffaf2;
-  --text: #1e1a17;
-  --muted: #5d554d;
-  --line: rgba(50, 36, 24, 0.12);
-  --accent: #9b3d23;
-  --accent-dark: #702411;
-  --shadow: 0 24px 60px rgba(61, 34, 18, 0.12);
+  --bg: #eef4ff;
+  --bg-strong: #dfe7fb;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: #f9fbff;
+  --text: #22305a;
+  --muted: #5c6a99;
+  --line: rgba(86, 128, 233, 0.16);
+  --accent: #5680e9;
+  --accent-dark: #8860d0;
+  --shadow: 0 24px 60px rgba(86, 128, 233, 0.16);
 }
 
 * {
@@ -25,9 +25,10 @@ body {
   font-family: "Manrope", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(155, 61, 35, 0.16), transparent 26%),
-    radial-gradient(circle at top right, rgba(73, 102, 72, 0.14), transparent 22%),
-    linear-gradient(180deg, #f7f1e8 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, rgba(132, 206, 235, 0.34), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(136, 96, 208, 0.18), transparent 24%),
+    radial-gradient(circle at top right, rgba(90, 185, 234, 0.22), transparent 25%),
+    linear-gradient(180deg, #f7fbff 0%, var(--bg) 100%);
 }
 
 a {
@@ -72,7 +73,7 @@ a {
   border: 1px solid var(--line);
   border-radius: 32px;
   background:
-    linear-gradient(135deg, rgba(255, 250, 242, 0.95), rgba(233, 223, 209, 0.8)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(193, 200, 228, 0.54)),
     var(--surface);
   box-shadow: var(--shadow);
 }
@@ -92,6 +93,7 @@ a {
   height: 220px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(155, 61, 35, 0.22), transparent 70%);
+  background: radial-gradient(circle, rgba(86, 128, 233, 0.26), transparent 70%);
 }
 
 .eyebrow,
@@ -170,10 +172,10 @@ li {
   place-items: center;
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  border: 1px solid rgba(112, 36, 17, 0.18);
+  border: 1px solid rgba(86, 128, 233, 0.2);
   border-radius: 28px;
   background:
-    linear-gradient(180deg, rgba(255, 248, 238, 0.95), rgba(231, 221, 207, 0.9));
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(193, 200, 228, 0.78));
   color: var(--accent-dark);
 }
 
@@ -209,12 +211,12 @@ li {
 
 .button-primary {
   background: var(--accent);
-  color: #fff8f4;
+  color: #f8fbff;
 }
 
 .button-secondary {
   border-color: var(--line);
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.58);
 }
 
 .section {
